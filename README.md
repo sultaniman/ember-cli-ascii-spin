@@ -20,7 +20,7 @@ eye - ◡◡ ⊙⊙ ◠◠
 bars - ▁ ▂ ▃ ▄ ▅ ▆ ▇ █ ▇ ▆ ▅ ▄ ▃
 ```
 
-[https://raw.githubusercontent.com/imanhodjaev/ember-cli-ascii-spin/master/screenshot.png](https://raw.githubusercontent.com/imanhodjaev/ember-cli-ascii-spin/master/screenshot.png)
+![spinners](https://raw.githubusercontent.com/imanhodjaev/ember-cli-ascii-spin/master/screenshot.png)
 
 ## Usage
 
@@ -33,7 +33,6 @@ bars - ▁ ▂ ▃ ▄ ▅ ▆ ▇ █ ▇ ▆ ▅ ▄ ▃
 ```
 
 ## Options
-`default_spinner` - default spinner `default:braille`,
-`default_interval` - update interval (in milliseconds) `default: 150`,
-`custom_spinner` - custom spinner definition (put spaces between each element)
-```
+* `default_spinner` - default spinner `default:braille`,
+* `default_interval` - update interval (in milliseconds) `default: 150`,
+* `custom_spinner` - custom spinner definition (put spaces between each element)
