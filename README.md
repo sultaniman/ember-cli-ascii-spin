@@ -11,11 +11,11 @@ $ ember install ember-cli-ascii-spin
 ## Available spinners
 
 ```ascii
-braille_dots - ⠁ ⠂ ⠄ ⡀ ⢀ ⠠ ⠐ ⠈
+braille-dots - ⠁ ⠂ ⠄ ⡀ ⢀ ⠠ ⠐ ⠈
 braille - ⠋ ⠙ ⠹ ⠸ ⠼ ⠴ ⠦ ⠧ ⠇ ⠏
 strokes - \ | / -
 balls - ◐ ◓ ◑ ◒
-pattern_block - ▤ ▧ ▥ ▨
+pattern-block - ▤ ▧ ▥ ▨
 blocks - ▉ ▊ ▋ ▌ ▍ ▎ ▏ ▎ ▍ ▌ ▋ ▊ ▉
 arrows - ← ↖ ↑ ↗ → ↘ ↓ ↙
 eye - ◡◡ ⊙⊙ ◠◠
