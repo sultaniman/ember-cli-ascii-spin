@@ -1,0 +1,1 @@
+export { default } from 'ember-cli-ascii-spin/components/ascii-spinner';

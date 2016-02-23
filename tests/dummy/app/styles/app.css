@@ -1,0 +1,31 @@
+.title {
+  text-align: center;
+  font-weight: 300;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #565758;
+}
+
+.spinners {
+  text-align: center;
+}
+
+.spinner-block {
+  width: 200px;
+  height: 38px;
+  margin: 0 auto;
+}
+
+.spinner-block strong {
+  float: left;
+  margin-top: 10px;
+  font-weight: 300;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #565758;
+}
+
+.ascii-spinner {
+  font-size: 26px;
+  font-weight: 300;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #565758;
+}
