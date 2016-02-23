@@ -20,7 +20,7 @@ eye - ◡◡ ⊙⊙ ◠◠
 bars - ▁ ▂ ▃ ▄ ▅ ▆ ▇ █ ▇ ▆ ▅ ▄ ▃
 ```
 
-[screenshot.png](screenshot.png).
+[https://raw.githubusercontent.com/imanhodjaev/ember-cli-ascii-spin/master/screenshot.png](https://raw.githubusercontent.com/imanhodjaev/ember-cli-ascii-spin/master/screenshot.png)
 
 ## Usage
 
