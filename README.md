@@ -26,13 +26,13 @@ bars - ▁ ▂ ▃ ▄ ▅ ▆ ▇ █ ▇ ▆ ▅ ▄ ▃
 
 ```hbs
 {{!-- Simple usage --}}
-{{ascii-spinner default_spinner='braille_dots' default_interval=100}}
+{{ascii-spinner spinner='braille_dots' interval=100}}
 
 {{!-- With custom --}}
-{{ascii-spinner custom_spinner='⠁ ⠂ ⠄ ⡀ ⢀ ⠠ ⠐ ⠈'}}
+{{ascii-spinner spinner='⠁ ⠂ ⠄ ⡀ ⢀ ⠠ ⠐ ⠈'}}
 ```
 
 ## Options
-* `default_spinner` - default spinner `default:braille`,
-* `default_interval` - update interval (in milliseconds) `default: 150`,
-* `custom_spinner` - custom spinner definition (put spaces between each element)
+* `spinner` - default spinner `default:braille`,
+* `interval` - update interval (in milliseconds) `default: 150`,
+* `custom` - custom spinner definition (put spaces between each element)
