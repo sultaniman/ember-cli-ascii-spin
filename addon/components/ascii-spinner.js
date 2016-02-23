@@ -5,7 +5,6 @@ import spinners from '../spinners';
 
 const {on, run, get, set} = Ember;
 
-
 export default Ember.Component.extend({
   layout,
   tagName: 'span',
@@ -19,10 +18,12 @@ export default Ember.Component.extend({
   custom: null,
 
   initializeSpinner: on('didInsertElement', function() {
+    // Initialize spinner
     run.later(this, this.startSpinner);
   }),
 
   destroySpinner: on('willDestroyElement', function() {
+    // Cleanup timer once unmounted
     clearInterval(get(this, 'timer'));
   }),
 
