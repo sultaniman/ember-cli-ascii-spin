@@ -28,7 +28,7 @@ bars - ▁ ▂ ▃ ▄ ▅ ▆ ▇ █ ▇ ▆ ▅ ▄ ▃
 
 ```hbs
 {{!-- Simple usage --}}
-{{ascii-spinner spinner='braille_dots' interval=100}}
+{{ascii-spinner spinner='braille-dots' interval=100}}
 
 {{!-- With custom --}}
 {{ascii-spinner custom='⠁ ⠂ ⠄ ⡀ ⢀ ⠠ ⠐ ⠈'}}
