@@ -4,7 +4,9 @@ This is a simple Ember addon with ASCII spinners.
 
 ## Installation
 
-* `ember-cli-ascii-spin`
+```sh
+$ ember install ember-cli-ascii-spin
+```
 
 ## Available spinners
 
