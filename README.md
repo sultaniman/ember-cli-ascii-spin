@@ -31,10 +31,10 @@ bars - ▁ ▂ ▃ ▄ ▅ ▆ ▇ █ ▇ ▆ ▅ ▄ ▃
 {{ascii-spinner spinner='braille_dots' interval=100}}
 
 {{!-- With custom --}}
-{{ascii-spinner spinner='⠁ ⠂ ⠄ ⡀ ⢀ ⠠ ⠐ ⠈'}}
+{{ascii-spinner custom='⠁ ⠂ ⠄ ⡀ ⢀ ⠠ ⠐ ⠈'}}
 ```
 
 ## Options
-* `spinner` - default spinner `default:braille`,
+* `spinner` - default spinner `default: braille`,
 * `interval` - update interval (in milliseconds) `default: 150`,
-* `custom` - custom spinner definition (put spaces between each element)
+* `custom` - custom spinner definition (put spaces between each element) `format: '⠁ ⠂ ⠄ ⡀ ⢀ ⠠ ⠐ ⠈'`
