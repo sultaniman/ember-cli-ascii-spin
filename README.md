@@ -2,6 +2,7 @@
 
 This is a simple Ember addon with ASCII spinners.
 
+
 ## Installation
 
 ```sh
@@ -9,32 +10,22 @@ $ ember install ember-cli-ascii-spin
 ```
 
 ## Available spinners
+I decided to use spinners from [cli-spinners](https://github.com/sindresorhus/cli-spinners) by [@sindresorhus](https://github.com/sindresorhus/)
 
-```ascii
-braille-dots - ⠁ ⠂ ⠄ ⡀ ⢀ ⠠ ⠐ ⠈
-braille - ⠋ ⠙ ⠹ ⠸ ⠼ ⠴ ⠦ ⠧ ⠇ ⠏
-strokes - \ | / -
-balls - ◐ ◓ ◑ ◒
-pattern-block - ▤ ▧ ▥ ▨
-blocks - ▉ ▊ ▋ ▌ ▍ ▎ ▏ ▎ ▍ ▌ ▋ ▊ ▉
-arrows - ← ↖ ↑ ↗ → ↘ ↓ ↙
-eye - ◡◡ ⊙⊙ ◠◠
-bars - ▁ ▂ ▃ ▄ ▅ ▆ ▇ █ ▇ ▆ ▅ ▄ ▃
-```
-
-![spinners](https://raw.githubusercontent.com/imanhodjaev/ember-cli-ascii-spin/master/screenshot.png)
+![spinners](https://github.com/imanhodjaev/ember-cli-ascii-spin/blob/master/samples.gif)
+![spinners](https://github.com/sindresorhus/cli-spinners/blob/master/screenshot.gif)
 
 ## Usage
 
 ```hbs
 {{!-- Simple usage --}}
-{{ascii-spinner spinner='braille-dots' interval=100}}
+{{ascii-spinner spinner='dots' interval=100}}
 
 {{!-- With custom --}}
 {{ascii-spinner custom='⠁ ⠂ ⠄ ⡀ ⢀ ⠠ ⠐ ⠈'}}
 ```
 
 ## Options
-* `spinner` - default spinner `default: braille`,
+* `spinner` - default spinner `default: dots`,
 * `interval` - update interval (in milliseconds) `default: 150`,
 * `custom` - custom spinner definition (put spaces between each element) `format: '⠁ ⠂ ⠄ ⡀ ⢀ ⠠ ⠐ ⠈'`

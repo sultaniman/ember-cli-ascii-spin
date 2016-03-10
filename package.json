@@ -44,7 +44,8 @@
     "spinkit",
     "ember-addon",
     "ember spinners",
-    "ascii spinners"
+    "ascii spinners",
+    "loading animation"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.5",

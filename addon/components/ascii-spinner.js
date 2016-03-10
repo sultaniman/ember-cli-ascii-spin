@@ -13,7 +13,7 @@ export default Ember.Component.extend({
   // Options
   timer: null,
   counter: 0,
-  spinner: 'braille',
+  spinner: 'dots',
   interval: 150,
   custom: null,
 
@@ -34,8 +34,12 @@ export default Ember.Component.extend({
     let spinner = this.getSpinner();
     let interval = get(this, 'interval');
 
+    if (!interval) {
+      interval = spinner['interval']
+    }
+
     let timer = setInterval(() => {
-      this.updateSpinner.apply(this, [spinner]);
+      this.updateSpinner.apply(this, [spinner['frames']]);
     }, interval);
 
     set(this, 'timer', timer);
@@ -52,7 +56,7 @@ export default Ember.Component.extend({
     }
 
     if (spinner[counter - 1]) {
-      this.$().text(spinner[counter - 1].trim());
+      this.$().html(spinner[counter - 1].trim());
     }
 
     this.incrementProperty('counter');
@@ -66,8 +70,13 @@ export default Ember.Component.extend({
     let custom = get(this, 'custom');
     let spinner = spinners[get(this, 'spinner')];
 
+    set(this, 'interval', spinner['interval']);
+
     if (custom) {
-      return custom.split(' ');
+      return {
+        interval: get(this, 'interval'),
+        frames: custom.split(' ')
+      };
     }
 
     return spinner;
