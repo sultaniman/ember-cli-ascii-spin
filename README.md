@@ -12,8 +12,8 @@ $ ember install ember-cli-ascii-spin
 ## Available spinners
 I decided to use spinners from [cli-spinners](https://github.com/sindresorhus/cli-spinners) by [@sindresorhus](https://github.com/sindresorhus/)
 
-![spinners](https://github.com/imanhodjaev/ember-cli-ascii-spin/blob/master/samples.gif)
-![spinners](https://github.com/sindresorhus/cli-spinners/blob/master/screenshot.gif)
+![spinners](https://github.com/imanhodjaev/ember-cli-ascii-spin/raw/master/samples.gif)
+![spinners](https://github.com/sindresorhus/cli-spinners/raw/master/screenshot.gif)
 
 ## Usage
 
